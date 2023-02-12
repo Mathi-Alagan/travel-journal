@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.nav-bar {
+  background-color: #f55a5a;
+  color: white;
+  font-size: 14.46px;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0;
+}
+.nav-logo {
+  width: 40px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+/* cards component */
+main {
+  width: 550px;
+  height: 665px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.card {
+  display: flex;
+  font-size: 10.24px;
+  margin: 0 35px;
+  padding: 20px 0;
+  color: #2b283a;
+}
+.card-border {
+  border-bottom: 2px solid #f5f5f5;
+}
+.card-img {
+  display: block;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.card-desc {
+  padding-top: 20px;
+}
+.location-logo {
+  font-size: 9px;
+  color: #f55a5a;
+}
+.card-desc--loc {
+  margin-right: 10px;
+  margin-left: 3px;
+  letter-spacing: 2px;
+}
+.card-desc--loc-link {
+  text-decoration: none;
+  border-bottom: 0.5px solid #918e9b;
+  color: #918e9b;
+}
+.card-desc--title {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.card-desc--dates {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .nav-bar {
+    width: 550px;
+  }
+}
